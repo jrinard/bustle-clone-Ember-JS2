@@ -1,0 +1,12 @@
+<h3>Admin Panel</h3>
+
+<div class="pull-right">
+  {{new-post savePost2="savePost3"}} <br>
+</div>
+
+<h5>Here you can create posts or select individual posts</h5><br>
+
+
+  {{#each model as |post|}}
+  {{post-tile post=post}}
+  {{/each}}

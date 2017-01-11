@@ -1,0 +1,44 @@
+li {
+  list-style-type: none;
+}
+left-image, img {
+  height: 250px;
+  margin-right: 20px;
+}
+
+#right-post-detail {
+height: 250px;
+
+}
+
+.post-title {
+  font-size: 2em;
+}
+
+.button-up {
+  margin-top: -20px;
+}
+
+a:link {
+  list-style-type: none;
+  text-decoration: none;
+    color: #222;
+}
+
+a:active {
+  list-style-type: none;
+  text-decoration: none;
+  color: #000;
+}
+
+a:visited {
+  list-style-type: none;
+  text-decoration: none;
+  color: #222;
+}
+
+a:hover {
+  list-style-type: none;
+  text-decoration: none;
+  color: #666;
+}
